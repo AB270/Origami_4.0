@@ -1,0 +1,100 @@
+h1{  
+    color:#aa4002;
+    padding-top: 0px;
+    
+  }
+  body{
+     border:solid;
+     color:#aa4002;
+     margin: 0px;
+  }
+  .header{
+    border:solid;
+    color:#aa4002;
+    background-color:#DEB887;
+    display:flex;
+    justify-content:center;
+    padding:15px;
+   
+}
+.item{
+  border:solid;
+    color:#aa4002;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: lighter;
+    color:#aa4002;
+    padding-top: 0px;
+}
+  .grid{
+    
+    border:solid;
+    color:#aa4002;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+   
+  }
+  .footer{
+    display:flex;
+    justify-content: center;
+    padding:15px;
+    border:solid;
+    color:#aa4002;  
+    background-color:#DEB887; 
+}
+.follow{
+    border:solid;
+    color:#aa4002;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: lighter;
+    color:#aa4002;
+    padding:15px;
+    background-color:#DEB887;
+}
+.content{
+  border:solid;
+    color:#aa4002;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: lighter;
+    color:#aa4002;
+    padding:15px;
+    background-color:#DEB887;
+}
+.h1{
+  position: relative;
+}
+.h1 p{
+  position:absolute;
+  top:50%;
+  left:15%;
+  transform:translate(-50%,-50%);
+  opacity:0;
+}
+.h1:hover p{
+   opacity:1;
+
+}
+.h1:hover img{
+  opacity:0.33;
+  transform:scale(1.5);
+}
+
+.p1:hover img{
+  opacity:0.33;
+  transform:scale(1.5);
+}
+.p2:hover img{
+  opacity:0.33;
+  transform:scale(1.5);
+}
+.p3:hover img{
+  opacity:0.33;
+  transform:scale(1.5);
+}
